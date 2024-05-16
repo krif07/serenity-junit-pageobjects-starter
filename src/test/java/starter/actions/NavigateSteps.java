@@ -4,7 +4,6 @@ import net.serenitybdd.annotations.Step;
 import net.serenitybdd.core.steps.UIInteractionSteps;
 import starter.pageobjects.CartForm;
 import starter.pageobjects.DemoBlazeHomeForm;
-import starter.pageobjects.DemoBlazeHomePage;
 
 import java.time.Duration;
 
@@ -12,7 +11,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElemen
 
 public class NavigateSteps extends UIInteractionSteps {
 
-    DemoBlazeHomePage demoBlazeHomePage;
+    DemoBlazeHomeForm demoBlazeHomePage;
 
     @Step("User opens the blaze demo page")
     public void opensTheHomePage() {

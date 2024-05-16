@@ -1,9 +1,11 @@
 package starter.pageobjects;
 
+import net.serenitybdd.annotations.DefaultUrl;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
+@DefaultUrl("https://demoblaze.com/")
 public class DemoBlazeHomeForm extends PageObject {
     public static final By MENU_HOME_LINK = By.xpath("(//a[@class='nav-link'])[1]");
     public static final By MENU_CART_LINK = By.xpath("//a[text()='Cart']");
