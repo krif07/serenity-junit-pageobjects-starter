@@ -21,7 +21,7 @@ public class WhenAddingProductsToCartTests {
 
     @Test
     @DisplayName("Should be able to check the product data")
-    void searchForRedThings() {
+    void checkTheProductData() {
         String name = "Nokia lumia 1520";
         String price = "$820";
 
